@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lllyt\\OneDrive\\Рабочий стол\\TPlabs\\study-labs-dump\\FirstLabS5\\LabFirstAgain.csproj": {}
+    "c:\\Users\\lllyt\\OneDrive\\Рабочий стол\\TPlabs\\study-labs-dump\\FirstLabS5-TP\\LabFirstAgain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lllyt\\OneDrive\\Рабочий стол\\TPlabs\\study-labs-dump\\FirstLabS5\\LabFirstAgain.csproj": {
+    "c:\\Users\\lllyt\\OneDrive\\Рабочий стол\\TPlabs\\study-labs-dump\\FirstLabS5-TP\\LabFirstAgain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lllyt\\OneDrive\\Рабочий стол\\TPlabs\\study-labs-dump\\FirstLabS5\\LabFirstAgain.csproj",
+        "projectUniqueName": "c:\\Users\\lllyt\\OneDrive\\Рабочий стол\\TPlabs\\study-labs-dump\\FirstLabS5-TP\\LabFirstAgain.csproj",
         "projectName": "LabFirstAgain",
-        "projectPath": "C:\\Users\\lllyt\\OneDrive\\Рабочий стол\\TPlabs\\study-labs-dump\\FirstLabS5\\LabFirstAgain.csproj",
+        "projectPath": "c:\\Users\\lllyt\\OneDrive\\Рабочий стол\\TPlabs\\study-labs-dump\\FirstLabS5-TP\\LabFirstAgain.csproj",
         "packagesPath": "C:\\Users\\lllyt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lllyt\\OneDrive\\Рабочий стол\\TPlabs\\study-labs-dump\\FirstLabS5\\obj\\",
+        "outputPath": "c:\\Users\\lllyt\\OneDrive\\Рабочий стол\\TPlabs\\study-labs-dump\\FirstLabS5-TP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
