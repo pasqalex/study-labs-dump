@@ -389,7 +389,7 @@ COLORS = {
     "blue":  ("#e3f2fd", "#0d47a1"),
 }
 
-def build_html(title, body, color_key, num):
+def build_html(title, body, color_key):
     bg, accent = COLORS[color_key]
     return f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><style>
@@ -397,18 +397,18 @@ def build_html(title, body, color_key, num):
 body {{ font-family: 'DejaVu Sans', sans-serif; font-size: 13pt; color: #222; }}
 h2 {{ color: {accent}; text-align: center; border-bottom: 2px solid {accent}; padding-bottom: 8px; }}
 h3 {{ color: {accent}; margin-top: 20px; }}
-.header {{ display: flex; justify-content: space-between; font-size: 10pt; color: #666; margin-bottom: 15px; }}
+.header {{ font-size: 10pt; color: #666; margin-bottom: 15px; }}
 .box {{ background: #f9f9f9; padding: 14px; border-radius: 6px; border-left: 4px solid {accent}; margin: 12px 0; }}
 ul, ol {{ padding-left: 24px; }}
 li {{ margin: 6px 0; }}
 </style></head><body>
-<div class="header"><span>Модуль 4. Автоколебательные системы и предельные циклы</span><span>Страница {num} из 20</span></div>
+<div class="header">Модуль 7. Автоколебательные системы и предельные циклы</div>
 <h2>{title}</h2>
 {body}
 </body></html>"""
 
 for i, (title, body, color_key) in enumerate(pages, 1):
-    html = build_html(title, body, color_key, i)
+    html = build_html(title, body, color_key)
     HTML(string=html).write_pdf(f'/content/pdf/стр_{i:02d}.pdf')
     print(f"[{i:>2}/20] ✓ {title[:50]}")
 
